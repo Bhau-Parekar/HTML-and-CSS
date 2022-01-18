@@ -1,108 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>figma design</title>
-
+    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div>
-        <img src="uae.png" alt="Image not found" class=img1>
-    </div>
+    <img src="uae.png" alt="Uag not found" class="uae-img">
     <div class="container">
-        <div id="item-1">
-            <strong class="h1size">UAE-Online</strong>
-
-            <div>
-                <img src="price.png" alt="" class="img2">
-
-                <et class="et">$120
-                        <img src="vector.png" alt="" class="img3">
-                        Type goes here
-                   
-                </et>
-            </div>
-
-            <div class="content">
-                <lighter class="lighter"> Residents of more than 180 countries can apply for a visa through the app.
-                    National of
-                    more than 30
-                    countries are eligibles for a free visa on arrival in Dubai, and do not need apply in advance.
-                </lighter>
-                <hr class="line">
-            </div>
-
-            <div class="content"><strong class="pay">How to apply and pay</strong>
-                <div class="c2">
-                    Applications can be made a maximum of 58 days of minmum of 24 working hours price to travel Emirates
-                    and VFS recommend you apply as far in advance as possible.
+        <div class="item-1">
+            <div class="space1">
+                <h2>UAE-Online</h2>
+                <div>
+                    <img src="price.png" alt="" class="price-img">$120<img src="vector.png" alt="" class="vector-img">
+                    Type goes here
                 </div>
+                <p>
+                    <b>
+                        Residents of more than 180 countries can apply for a visa through the app. National of more than 30 countries are eligibles for a free visa on arrival in Dubai, and do not need apply in advance.
+                    </b> 
+                </p><h1></h1>
             </div>
-            <div class="c3">
-                Payment can be made with a visa/master credit or debit card only
+            <hr>
+            <div class="space2">
+                <h3>How to apply and pay</h3>
+                <p>
+                    Applications can be made a maximum of 58 days of minmum of 24 working hours price to travel Emirates and VFS recommend you apply as far in advance as possible.
+                </p>
+                <p>
+                    Payment can be made with a visa/master credit or debit card only.
+                </p>
             </div>
         </div>
-
-        <div id="item-2">
-            <div class="content" style="height:250px">
-                <h4>Calculate Fee</h4>
-                <div>
-                    Traveling from
-                    <p1 class="visa">Visa Type </p1>
-                    <select name="drop1" id="drop1">
-                        <option value="india">India</option>
-                        <option value="USA">USA</option>
-                    </select>
-
-                    <select name="drop2" id="drop2">
-                        <option value="india">Tourist</option>
-                        <option value="USA">USA</option>
-                    </select>
-                </div>
-                <!-- <hr> -->
-                <div>
-                    <div class="apply">
-                        Applying For
+        <div class="item-2"> 
+            <div class="space3">
+                <h3>Calculate Fee</h3>
+                <div class="sub-flex1">
+                    <div class="travel">
+                        Travelling from
+                        <select class="drop-box1">
+                            <option value="india">India</option>
+                            <option value="USA">USA</option>
+                        </select>
                     </div>
-                    <div>
-                        <select name="drop3" id="drop3">
+                    <div class="visa">
+                        Visa Type
+                        <select class="drop-box2">
+                            <option value="india">Tourist</option>
+                            <option value="USA">USA</option>
+                        </select>
+                    </div>
+                </div>
+                <h1></h1>
+                <div class="sub-flex2">
+                    <div class="Days">
+                        Applying for
+                        <select class="drop-box3">
                             <option value="india">1 Day</option>
                             <option value="USA">1 Week</option>
                             <option value="USA">1 Month</option>
                         </select>
-                        <button class="b1" id="b1">-</button>
-                        <input type="text" name="textvalue" id="textboxVal">
-                        <button class="b2">+</button>
                     </div>
-                    <button class="button">Calculate</button>
+                    <div class=text-box>
+                        <h4></h4>
+                        <button class="plus-button" id="b1">-</button>
+                        <input type="text" name="textvalue" class="text-box1">
+                        <button class="minus-button" id="b2">+</button>
+                    </div>
                 </div>
-                <div class="content1">
-                    <div>
-                        <t2 class="proc"> Processing fees</t2>
-                        <input id="tbox1" type="text" name="text1">
-                    </div>
-                    <div>
-                        <t2 class="proc"> Fees</t2>
-                        <input id="tbox1" type="text" name="text1" style="margin-left: 336px;">
-                    </div>
-                    <div>
-                        <hr class="hr1">
-                    </div>
-                    <div>
-                        <t2 class="proc" > Total</t2>
-                        <input id="tbox1" type="text" name="text1" style="margin-left: 336px;">
-                    </div>
+                <h1></h1>
+                <button class="button">Calculate</button>
+            </div>
+            <div class="space4">
+                <div class="last-content">
+                    <h4>Processing Fees</h4>
+                    <h4>Fees</h4>
+                    <hr>
+                    <h4>Total</h4>
                 </div>
             </div>
         </div>
     </div>
-
-
 </body>
-
 </html>
